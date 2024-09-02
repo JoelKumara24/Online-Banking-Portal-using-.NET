@@ -1,0 +1,176 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en" id="contentFrame" >
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Welcome to the Liberty Capital Bank online Portal</title>
+
+	<link rel="stylesheet" href="~/css/site.css">
+		<script src="~/js/site.js"></script>
+		<script src="~/js/admin.js"></script>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	</head>
+<style type="text/css">
+
+	#contentFrame{
+		height: 100%;
+		width: 100%;
+	}
+
+	.list-container {
+		width: 100%; /* Adjust the width as needed */
+		height:100%; /* Adjust the height as needed */
+
+
+	}
+	body {
+		margin: 0;
+		height: 100%;
+	}
+
+	input{
+		display: block;
+		font-family: Poppins, sans-serif;
+		background-color:aliceblue;
+		border-color: #0081cd;
+		padding: 5%;
+		border-radius: 5px;
+
+	}
+
+
+
+.inner_container{
+	width: 30%;
+	padding-top: 7%;
+height: 150%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+			justify-content: center;
+
+	background-color: #FFFFFF;
+	background: transparent;
+
+
+}
+
+.heading_font_properties{
+text-align: center;
+	font-family: Poppins, sans-serif;
+	font-weight: 800;
+	font-size: 28px;
+	color: #FFFFFF;
+
+
+}
+
+.list-item {
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 20px;
+ background: transparent;
+ margin-bottom: 15px;
+ border-color: #FFFFFF;
+ border-width: 4px;
+ border-style: double;
+
+	color: #fff; /* Text color */
+
+}
+
+
+.inline_Container{
+
+	position: absolute;
+	top:65px;
+	right: 10px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #FFFFFF;
+	background: transparent;
+}
+
+.logout_But{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 7px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #000000;
+	border: solid #c2e7ff;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+}
+.logo{
+	margin: auto;
+	width : 100px ;
+	height:100px;
+	display: flex;
+	align-self: center;
+
+}
+
+
+
+
+
+
+.but_trans:hover{background-color: #17a2b8;cursor: pointer;}
+.list-item:hover{background-color: #596f9e;cursor: pointer;}
+.logout_But:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+
+</style>
+
+<body>
+<div class="main_container_auth">
+	<div class="logout_But" onclick="loadView('defaultview', getUserFromElement())">
+		Log Out
+		</div>
+		<br>
+	<div id="userNameDisplay" class="inline_Container" >
+		Welcome! user
+		</div>
+
+
+	<img class="logo" src= "~/images/logo.png">
+	<div class="heading_font_properties">
+		Liberty Capital Bank 
+		</div>
+<div class="inner_container">
+	<div class="list-container">
+
+		<div class="list-item" onclick="loadView('profileview', getUserFromElement())">Profile</div>
+		<div class="list-item" onclick="loadView('accountview', getUserFromElement())">My Account</div>
+		<div class="list-item" onclick="loadView('transactionview', getUserFromElement())">Transactions</div>
+		<div class="list-item" onclick="loadView('transferview', getUserFromElement())">Quick Transfer</div>
+		<!-- Add more items as needed -->
+
+	</div>
+</div>
+
+http://localhost:5264/api/login/authenticate/alice.smith/hashed_password_here
+
+20963675@student.curtin.edu.au
+21038875@student.curtin.edu.au
+</div>
+
+</body>
+</html>

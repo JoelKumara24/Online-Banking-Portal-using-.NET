@@ -1,0 +1,268 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" id="contentFrame" >
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Transfer page</title>
+
+	<link rel="stylesheet" href="~/css/site.css">
+		<script src="~/js/site.js"></script>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	</head>
+
+<style type="text/css">
+
+	#contentFrame{
+		height: 100%;
+		width: 100%;
+	}
+
+	.list-container {
+		width: 100%; /* Adjust the width as needed */
+		height:100%; /* Adjust the height as needed */
+
+
+	}
+	body {
+		margin: 0;
+		height: 100%;
+	}
+
+	input{
+		display: block;
+		font-family: Poppins, sans-serif;
+		background-color:aliceblue;
+		border-color: #0081cd;
+		padding: 5%;
+		border-radius: 5px;
+
+	}
+
+
+
+.inner_container{
+	width: 30%;
+	padding-top: 3%;
+height: 150%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+			justify-content: center;
+
+	background-color: #FFFFFF;
+	background: transparent;
+
+
+}
+
+.heading_font_properties{
+text-align: center;
+	font-family: Poppins, sans-serif;
+	font-weight: 800;
+	font-size: 28px;
+	color: #FFFFFF;
+
+
+}
+
+.list-item-label {
+	width: 100%;
+	text-align: left;
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+ background: transparent;
+ margin-bottom: 7px;
+
+ border-bottom: 2px solid #c2e7ff  ;
+
+	color: #fff; 
+
+}
+
+.list-item {
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 20px;
+ background: transparent;
+ margin-bottom: 20px;
+ border-color: #FFFFFF;
+ border-width: 4px;
+ border-style: solid;
+
+	color: #fff; /* Text color */
+
+}
+
+
+.update_but_wrapper{
+	width: 30%;
+	height: fit-content;
+	margin: auto;
+	border-radius: 10%;
+	border-style:double;
+	border-color: #FFFFFF;
+	border-width: 2px;
+}
+
+
+.inline_Container{
+
+	position: absolute;
+	top:65px;
+	right: 10px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #FFFFFF;
+	background: transparent;
+}
+
+.logout_But{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 7px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #000000;
+	border: solid #c2e7ff;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+}
+.logo{
+	margin: auto;
+	width : 70px ;
+	height:70px;
+	display: flex;
+	align-self: center;
+
+}
+
+.profile_img{
+	margin: auto;
+	padding: 2%;
+	width : 150px ;
+	height:150px;
+	display: flex;
+	align-self: center;
+}
+
+.Prof_updateBut{
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	height: 100%;
+	font-size: 25px;
+	color: #000000;
+	background-color: antiquewhite;
+}
+
+
+.home_But{
+
+	position: absolute;
+	top: 10px;
+	Left: 10px;
+	padding: 7px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #000000;
+	border: solid #c2e7ff;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+.home_but:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+#updatePassBut:hover{background-color: #596f9e;cursor:pointer;};
+
+.Prof_updateBut:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+
+.logout_But:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+.updateBut:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+.update_but_wrapper:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+
+</style>
+
+<body>
+<div class="main_container_auth">
+
+		<div class="logout_But" style="position: absolute;top: 10px;Left: 10px;" onclick="loadView('authview', getUserFromElement())">
+		&lt;- Home
+		</div>
+	<div class="logout_But" onclick="loadView('defaultview', getUserFromElement())">
+		Log Out
+		</div>
+		<br>
+	<div id="userNameDisplay" class="inline_Container">
+		Welcome! user
+		</div>
+
+
+	<img class="logo" src= "~/images/logo.png">
+	<div class="heading_font_properties">
+		Liberty Capital Bank 
+		</div>
+<div class="inner_container">
+
+		<div class="heading_font_properties" style="padding-bottom:5px; padding-top:20px;">
+		Account Number 
+		</div>
+
+	<div id="AccountNumberContainer" class="heading_font_properties" style="padding-bottom:20px; padding-top:5px;color:lightgoldenrodyellow;">
+		Account Number
+		</div>
+
+	<div class="heading_font_properties" style="padding-bottom:5px; padding-top:20px;">
+		Account balance
+		</div>
+	<div id="AccountBalanceContainer" class="heading_font_properties" style="padding-bottom:20px; padding-top:5px;color:lightgoldenrodyellow;">
+		Account balance: 199,999$
+		</div>
+
+			<div class="heading_font_properties" style="padding-bottom:5px; padding-top:20px;">
+		Enter transfer details
+		</div>
+	<div class="list-container">
+		<div id="userIDContainer" style="display:none;">ID</div>
+		<div class="list-item-label">Account Number</div>
+		<div id="TransferToAccountNumberContainer" class="list-item" contenteditable="true"></div>
+		<div class="list-item-label">Amount</div>
+		<div id="AmountContainer" class="list-item" contenteditable="true"></div>
+				<div class="list-item-label">Description</div>
+		<div id="DescriptionContainer" class="list-item" contenteditable="true"></div>
+	
+		<div class="update_but_wrapper" onclick="transferButClicked()">
+		<button class="Prof_updateBut">
+			Transfer
+		</button>
+	</div>
+		<!-- Add more items as needed -->
+
+	</div>
+</div>
+
+</div>
+
+</body>
+
+</html>

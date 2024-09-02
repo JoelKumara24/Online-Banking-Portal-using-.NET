@@ -1,0 +1,303 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" id="contentFrame" >
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<title>Transactions page</title>
+
+	<link rel="stylesheet" href="~/css/site.css">
+		<script src="~/js/site.js"></script>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	</head>
+
+
+<style type="text/css">
+
+	#contentFrame{
+		height: 100%;
+		width: 100%;
+	}
+
+	.list-container {
+		width: 100%; /* Adjust the width as needed */
+		height:100%; /* Adjust the height as needed */
+
+
+	}
+	body {
+		margin: 0;
+		height: 100%;
+	}
+
+	input{
+		display: block;
+		font-family: Poppins, sans-serif;
+		background-color:aliceblue;
+		border-color: #0081cd;
+		padding: 5%;
+		border-radius: 5px;
+
+	}
+
+
+
+.inner_container{
+	width: 50%;
+	padding-top: 3%;
+height: 150%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+			justify-content: center;
+
+	background-color: #FFFFFF;
+	background: transparent;
+
+
+}
+
+.heading_font_properties{
+text-align: center;
+	font-family: Poppins, sans-serif;
+	font-weight: 800;
+	font-size: 28px;
+	color: #FFFFFF;
+
+
+}
+
+.list-item {
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 20px;
+ background: transparent;
+ margin-bottom: 15px;
+ border-color: #FFFFFF;
+ border-width: 4px;
+ border-style: solid;
+
+	color: #fff; /* Text color */
+
+}
+
+.login_but_wrapper{
+	width: 30%;
+	height: fit-content;
+	margin: auto;
+	border-radius: 10%;
+	border-style:double;
+	border-color: #FFFFFF;
+	border-width: 2px;
+}
+
+
+.inline_Container{
+
+	position: absolute;
+	top:65px;
+	right: 10px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #FFFFFF;
+	background: transparent;
+}
+
+.logout_But{
+
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 7px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #000000;
+	border: solid #c2e7ff;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+}
+.logo{
+	margin: auto;
+	width : 70px ;
+	height:70px;
+	display: flex;
+	align-self: center;
+
+}
+
+.profile_img{
+	margin: auto;
+	padding: 2%;
+	width : 150px ;
+	height:150px;
+	display: flex;
+	align-self: center;
+}
+
+.updateBut{
+	width: 100%;
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	color: #000000;
+	background-color: antiquewhite;
+}
+
+
+table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 2% 0;
+
+}
+
+td, th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+
+tr{background-color: #fff;}
+tr:hover, tr:active {background-color: #c7c7c7;}
+
+th {
+	text-align: left;
+	background-color: #f2f2f2;
+	color: #333;
+	text-align:left;vertical-align:middle;
+  }
+
+.home_But{
+
+	position: absolute;
+	top: 10px;
+	Left: 10px;
+	padding: 7px;
+
+	font-family: Poppins, sans-serif;
+	height: fit-content;
+	font-size: 25px;
+	width: fit-content;
+	color: #000000;
+	border: solid #c2e7ff;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+.home_but:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+
+
+.but_trans:hover{background-color: #17a2b8;cursor: pointer;}
+.list-item:hover{background-color: #596f9e;cursor: pointer;}
+.logout_But:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+.updateBut:hover{background-color: #850000;cursor: pointer; color: #FFFFFF;}
+
+</style>
+
+<body>
+<div class="main_container_auth">
+
+
+		<div class="logout_But" style="position: absolute;top: 10px;Left: 10px;" onclick="loadView('authview', getUserFromElement())">
+		&lt;- Home
+		</div>
+	<div class="logout_But" onclick="loadView('defaultview', getUserFromElement())">
+		Log Out
+		</div>
+		<br>
+	<div  id="userNameDisplay" class="inline_Container">
+		Welcome! user
+		</div>
+
+
+	<img class="logo" src= "~/images/logo.png">
+	<div class="heading_font_properties">
+		Liberty Capital Bank 
+		</div>
+<div class="inner_container">
+	<div class="heading_font_properties" style="padding-bottom:5px; padding-top:20px;">
+		Account Number 
+		</div>
+	<div id="AccountNumberContainer" class="heading_font_properties" style="padding-bottom:20px; padding-top:5px;color:lightgoldenrodyellow;">
+		Account Number
+		</div>
+
+		<div class="heading_font_properties" style="padding-bottom:5px; padding-top:20px;">
+			Account balance
+			</div>
+		<div id="AccountBalanceContainer" class="heading_font_properties" style="padding-bottom:20px; padding-top:5px;color:lightgoldenrodyellow;">
+			Account balance: 199,999$
+			</div>
+		<div class="heading_font_properties" style="padding-bottom:20px; padding-top:20px;">
+			Transactions completed
+			</div>
+			<div id="userIDContainer" style="display:none;">ID</div>
+	<div id="transaction_container"  class="list-container">
+
+		<table>
+			<thead>
+				<tr>
+					<th>TransactionId</th>
+					<th>AccountNumber</th>
+					<th>TransactionType</th>
+					<th>Amount</th>
+					<th>TransactionDate</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>12345</td>
+					<td>Deposit</td>
+					<td>100.00</td>
+					<td>2023-10-09 09:00:00</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>12345</td>
+					<td>Deposit</td>
+					<td>123300.00</td>
+					<td>2023-10-09 09:00:00</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>12345</td>
+					<td>Deposit</td>
+					<td>100.00</td>
+					<td>2023-10-09 09:00:00</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>12345</td>
+					<td>Deposit</td>
+					<td>100.00</td>
+					<td>2023-10-09 09:00:00</td>
+				</tr>
+				<!-- Add more rows as needed -->
+			</tbody>
+		</table>
+
+	</div>
+		<!-- Add more items as needed -->
+
+	</div>
+</div>
+
+</div>
+
+</body>
+</html>

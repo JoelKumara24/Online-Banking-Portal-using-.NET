@@ -1,0 +1,62 @@
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/appsettings.Development.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/appsettings.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS.staticwebassets.runtime.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS.deps.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS.runtimeconfig.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS.dll
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/bin/Debug/net6.0/SimpleWebJS.pdb
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.csproj.AssemblyReference.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.AssemblyInfoInputs.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.AssemblyInfo.cs
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.csproj.CoreCompileInputs.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.MvcApplicationPartsAssemblyInfo.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.RazorAssemblyInfo.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.RazorAssemblyInfo.cs
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets/msbuild.SimpleWebJS.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets/msbuild.build.SimpleWebJS.props
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.SimpleWebJS.props
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.SimpleWebJS.props
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets.build.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/staticwebassets.development.json
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/scopedcss/bundle/SimpleWebJS.styles.css
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/scopedcss/projectbundle/SimpleWebJS.bundle.scp.css
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.dll
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/refint/SimpleWebJS.dll
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.pdb
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/SimpleWebJS.genruntimeconfig.cache
+/Users/sajib/Projects/SimpleWebJS/SimpleWebJS/obj/Debug/net6.0/ref/SimpleWebJS.dll
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\appsettings.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.staticwebassets.runtime.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.exe
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.deps.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.runtimeconfig.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.dll
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\bin\Debug\net6.0\SimpleWebJS.pdb
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.csproj.AssemblyReference.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.AssemblyInfoInputs.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.AssemblyInfo.cs
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.csproj.CoreCompileInputs.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.RazorAssemblyInfo.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.RazorAssemblyInfo.cs
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets\msbuild.SimpleWebJS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets\msbuild.build.SimpleWebJS.props
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SimpleWebJS.props
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SimpleWebJS.props
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\scopedcss\bundle\SimpleWebJS.styles.css
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\scopedcss\projectbundle\SimpleWebJS.bundle.scp.css
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.dll
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\refint\SimpleWebJS.dll
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.pdb
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\SimpleWebJS.genruntimeconfig.cache
+C:\Users\Thilina\Documents\curtin year 2\sem2\Distributed Computing(COMP3008)\2023\week9\SimpleWebJS\SimpleWebJS\SimpleWebJS\obj\Debug\net6.0\ref\SimpleWebJS.dll
